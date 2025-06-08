@@ -6,17 +6,41 @@ A fully-featured, GUI-based Library Management System built in Java using Swing 
 
 ## ✅ Project Guidelines Followed
 
-| Guideline                        | Implementation Summary |
+| Guideline
 
-| ✔ Core Feature Implementation    | Fully functional CRUD for books/members, issue/return, dashboard |
-| ✔ Error Handling & Robustness    | Try-catch blocks, user alerts, DB exception logging |
-| ✔ Component Integration          | DAO, GUI, Models connected through Controller logic |
-| ✔ Event Handling & Processing    | Optimized event listeners, Swing event delegation |
-| ✔ Data Validation                | Field checks (client-side) + DB constraints (server-side) |
-| ✔ Code Quality & Innovation      | Modular OOP, MVC pattern, PDF export, dashboard analytics |
-| ✔ Project Documentation          | /docs/index.md, setup guide, feature list, and usage |
+| ✔ Core Feature Implementation 
+
+| ✔ Error Handling & Robustness
+
+| ✔ Component Integration
+
+| ✔ Event Handling & Processing
+
+| ✔ Data Validation
+
+| ✔ Code Quality & Innovation
+
+| ✔ Project Documentation
+
+
+| Implementation Summary
+
+
+| Try-catch blocks, user alerts, DB exception logging
+
+| DAO, GUI, Models connected through Controller logic
+
+| Optimized event listeners, Swing event delegation
+
+| Field checks (client-side) + DB constraints (server-side)
+
+| Modular OOP, MVC pattern, PDF export, dashboard analytics 
+
+| docs/index.md, setup guide, feature list, and usage 
+
 
 ---
+
 
 ## 🚀 Features
 
