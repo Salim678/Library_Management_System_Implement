@@ -29,8 +29,8 @@ LibraryManagementSystem/ • src/main/java/lms/gui/
  - Book.java
 
  - Student.java
-
-  - Transaction.java
+   
+ - Transaction.java
 
 • src/main/java/lms/dao/
 
@@ -43,10 +43,10 @@ LibraryManagementSystem/ • src/main/java/lms/gui/
 • src/main/java/lms/util/
 
  - Validator.java
-
+ 
  - PDFExporter.java
-
-  - ChartHelper.java
+ 
+ - ChartHelper.java
  
 
 • lib/
@@ -79,6 +79,7 @@ LibraryManagementSystem/ • src/main/java/lms/gui/
 
 ---  
 
+                          Input
 ## ✅ Project Guidelines Followed
 
 | Guideline
