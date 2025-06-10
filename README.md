@@ -4,6 +4,81 @@ A fully-featured, GUI-based Library Management System built in Java using Swing 
 
 ---
 
+📂 Project Structure
+
+LibraryManagementSystem/ • src/main/java/lms/gui/
+
+ - MainFrame.java
+
+ - BookPanel.java
+
+ - StudentPanel.java
+
+ - IssuePanel.java
+
+ - ReturnPanel.java
+
+ - DashboardPanel.java
+
+• src/main/java/lms/db/
+
+ - DBConnection.java
+
+• src/main/java/lms/model/
+
+ - Book.java
+
+ - Student.java
+
+  - Transaction.java
+
+• src/main/java/lms/dao/
+
+  - BookDAO.java
+
+  - StudentDAO.java
+
+  - TransactionDAO.java
+
+• src/main/java/lms/util/
+
+ - Validator.java
+
+ - PDFExporter.java
+
+  - ChartHelper.java
+ 
+
+• lib/
+
+  - mysql-connector-java.jar
+
+  - pdfbox.jar
+
+• LMS.sql – MySQL database schema
+
+• LMS.jar – Executable JAR file
+
+• README.md – Project documentation
+
+• LMS_Documentation.docx – Full report and guide
+
+---
+
+
+## 🚀 Features
+
+- 📖 **Book Management**: Add, view, delete, update books
+- 👤 **Member Management**: Add, view, delete, update members
+- 🔁 **Issue/Return**: Manage borrow/return with dates
+- 📊 **Dashboard**: Real-time metrics of total, issued, and available books
+- 📄 **PDF Export**: Generate printable reports for books and members
+- 🛡️ **Validation**: Email checks, empty field detection, duplicate entry prevention
+- ✅ Data validation & exception handling
+- 🧩 Modular architecture (MVC + DAO)
+
+---  
+
 ## ✅ Project Guidelines Followed
 
 | Guideline
@@ -41,26 +116,12 @@ A fully-featured, GUI-based Library Management System built in Java using Swing 
 
 ---
 
-
-## 🚀 Features
-
-- 📖 **Book Management**: Add, view, delete, update books
-- 👤 **Member Management**: Add, view, delete, update members
-- 🔁 **Issue/Return**: Manage borrow/return with dates
-- 📊 **Dashboard**: Real-time metrics of total, issued, and available books
-- 📄 **PDF Export**: Generate printable reports for books and members
-- 🛡️ **Validation**: Email checks, empty field detection, duplicate entry prevention
-- ✅ Data validation & exception handling
-- 🧩 Modular architecture (MVC + DAO)
-
----
-
 ## 🛠️ Technologies Used
 
 -   Java (JDK 8+)
 -   Swing (for GUI)
 -   MySQL (as RDBMS)
 -   JDBC (for database connectivity)
--   iText (for PDF generation)
+-   iText (for PDF generation
 
 ---
