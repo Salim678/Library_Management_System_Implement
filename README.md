@@ -79,7 +79,7 @@ LibraryManagementSystem/ • src/main/java/lms/gui/
 
 ---  
 
-                          Input
+                          
 ## ✅ Project Guidelines Followed
 
 | Guideline
